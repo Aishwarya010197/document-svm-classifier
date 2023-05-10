@@ -4,7 +4,7 @@ This is a repo that contains a document classifier to identify relevant document
 # Example usage
 ```python 
 docs = ['The quick brown fox jumps over the lazy dog', 'The lazy dog slept in the sun', 'The quick brown fox ate a rabbit']
-labels = ['relevant', 'relevant', 'unrelevant']
+labels = ['relevant', 'irrelevant', 'relevant']
 test_docs = ['The quick brown fox is a very fast animal', 'The lazy cat slept in the sun']
 svm_classifier = SVMClassifier()
 svm_classifier.train(docs, labels)
